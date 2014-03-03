@@ -1,0 +1,652 @@
+/* CSS Document */
+.ui-header:empty, .ui-footer:empty{
+    bottom: 0px;
+    left: 0px;
+    min-height: 2.6875em;
+	width:100%;
+    position: fixed;
+	background:none;
+	border:none;
+}
+
+/*div#navigation {
+	bottom: 5em;
+    padding: 0 10px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}*/
+
+
+div#navigation {
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+
+.ui-field-contain {
+    border-bottom: none !important;
+}
+
+body, input, select, textarea, button, .ui-btn {
+    font-family: sans-serif;
+    font-size: 1em !important;
+    line-height: 1.1em !important;
+}
+
+ul#btn-list-header li.ui-btn-inner, ul#btn-list-footer li.ui-btn-inner {
+    display: block;
+    float: left !important;
+    overflow: hidden;
+    padding: 8px 15px;
+	height:80px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;;
+}
+
+/*a#mainmenu.ui-btn {
+	height:30px;
+}*/
+
+div.ui-loader h1 {
+	border:none !important;
+}
+
+.ui-navbar {
+    margin: 0 auto !important;
+    max-width: 80% !important;
+}
+
+iframe {
+    border-radius: 0 !important;
+    border-style: none;
+    margin: 12px 0 0;
+}
+
+
+
+div#main-menu-holder, #controlgroup {
+	left: 0px;
+	padding: 0 !important;
+	position: fixed;
+	/*top: -11px;*/
+	width: 100%;
+}
+
+ul#main-menu, ul, menu, dir  {
+	    margin: 0 auto;
+    padding: 0 !important;
+}
+
+
+/*ul#main-menu li.menu-leaf {
+border-left: 1px solid #333;
+border-right: 1px solid #961351;
+border-top: 1px solid #d27ea6;
+border-bottom: 1px solid #d27ea6;
+*/
+   
+  /* border-right:1px solid #fa69c3;
+    float: left;
+    height: 80px;
+    list-style: none outside none;
+    margin-top: -1px;
+    width: 80px;
+	*/
+
+	
+/* background: #be417f; Old browsers */
+/*background: -moz-linear-gradient(top,  #be417f 0%, #a10d6d 100%); *//* FF3.6+ */
+/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#be417f), color-stop(100%,#a10d6d)); *//* Chrome,Safari4+ */
+/*background: -webkit-linear-gradient(top,  #be417f 0%,#a10d6d 100%);*/ /* Chrome10+,Safari5.1+ */
+/*background: -o-linear-gradient(top,  #be417f 0%,#a10d6d 100%);*/ /* Opera 11.10+ */
+/*background: -ms-linear-gradient(top,  #be417f 0%,#a10d6d 100%);*/ /* IE10+ */
+/*background: linear-gradient(to bottom,  #be417f 0%,#a10d6d 100%); *//* W3C */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#be417f', endColorstr='#a10d6d',GradientType=0 ); *//* IE6-9 
+
+
+}*/
+
+
+ul#main-menu li.menu-leaf {
+	
+	border:0px solid rgba(207, 105, 142, 0.8);
+    float: left;
+    height: 80px;
+    list-style: none outside none;
+    margin-top: 0px;
+	
+}
+/*.ui-footer-fixed {
+    height: 80px !important;
+    left: 0;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+	padding:0 !important;
+}*/
+
+/*ul#main-menu li a#btn-social {
+background: url("../img/lf-gui-350.jpg") repeat-x scroll 0 1px #ED088E !important;
+
+}*/
+
+/*ul#main-menu li a#btn-social {
+background: url("../img/lf-btn-social.png") repeat-x scroll 0px 0px transparent !important;
+
+}
+
+ul#main-menu li a#btn-shout {
+background: url("../img/lf-btn-shout.png") repeat-x scroll 0px 0px transparent !important;
+
+}
+
+ul#main-menu li a#btn-whats {
+background: url("../img/lf-btn-whats.png") repeat-x scroll 0px 0px transparent !important;
+
+}
+
+ul#main-menu li a#btn-vote {
+background: url("../img/lf-btn-vote.png") repeat-x scroll 0px 0px transparent !important;
+
+}
+*/
+ul#main-menu li a#btn-social {
+/*background: url("../img/lf-gui-350.jpg") repeat-x scroll 0 1px #ED088E !important;*/
+
+}
+
+ul#main-menu li a#btn-social {
+/*background: url("../img/lf-btn-social.png") repeat-x scroll 0px 0px transparent !important;*/
+
+}
+
+ul#main-menu li a#btn-shout {
+/*background: url("../img/lf-btn-shout.png") repeat-x scroll 0px 0px transparent !important;*/
+
+}
+
+ul#main-menu li a#btn-whats {
+/*background: url("../img/lf-btn-whats.png") repeat-x scroll 0px 0px transparent !important;*/
+
+}
+
+ul#main-menu li a#btn-vote {
+/*background: url("../img/lf-btn-vote.png") repeat-x scroll 0px 0px transparent !important;*/
+
+}
+
+
+ul#main-menu li.menu-leaf a:active {
+	color:#fff;
+	text-shadow:1px 1px 1px #333;
+}
+/*ul#main-menu li.menu-leaf a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 0 solid;
+    border-radius: 0;
+    box-shadow: none !important;
+    color: #380923;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 60px;
+    padding-left: 0;
+    padding-top: 1px;
+    text-shadow: 1px 1px 0 #929080;
+    width: 70px;
+	
+}*/
+
+ul#main-menu li.menu-leaf a {
+    background: none repeat scroll 0 0 rgba(224, 90, 80, 0) !important;
+    border: 0 solid;
+    border-radius: 0;
+    box-shadow: none !important;
+    /*color: #380923;*/
+	/*color: rgba(144, 67, 115, 0.9);*/
+	 color: rgba(84, 11, 49, 0.85);
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 10px 30px 10px 0;
+     text-shadow: 0 1px 0 #FFFFFF;
+}
+
+
+div#nav-panel.ui-panel div.ui-panel-inner ul.ui-listview li a {
+	font-weight:100;
+}
+
+div#branding {
+	display:none;
+}
+
+div.region-content {
+}
+#panel-fixed-page1 div.ui-content {
+	margin-top:10px !important;
+}
+
+#panel-fixed-page2 div.ui-content {
+	margin-top:0px !important;
+	padding:0px !important;
+}
+
+
+html, body.ui-mobile-viewport, div.ui-mobile-viewport,
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit,
+ui-panel-dismiss-open.ui-panel-dismiss-position-left, .ui-panel-dismiss-open, ui-panel-dismiss, .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper
+ {
+  /*  background: url("../img/bg-orange.jpg") repeat scroll 0 0 #EF8C37 !important;*/
+	background: url("../img/bg-orange-dark.png") repeat scroll 50% 50% #f7c86b !important;
+    font-family: 'Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif !important;
+}
+
+div#panel-fixed-page1, .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a, .ui-header {
+	background:none !important;
+	border: none !important;
+}
+
+#footer.ui-footer, .ui-footer-fixed {
+   /* background: url("../img/lf-btn-bg-tile.jpg") repeat-x scroll 0 0 #f76b6b !important;*/
+	/*background: linear-gradient(to bottom, #FB00F4 0%, #D9009B 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;*/
+/*    border-top: 1px solid #febde5 !important;
+  */bottom: 0 !important;
+    display: block;
+    min-height: 50px;
+	height:65px !important;
+    padding:0px 5px;
+    position: fixed !important;
+    text-shadow: 0 1px 1px #333333;
+    width: 100%;
+	overflow:hidden;
+    z-index: 1000;
+	 background: none repeat scroll 0 0 rgba(246, 25, 139, 0.8) !important;
+    border-top: 1px solid #FFFFFF !important;
+    bottom: 0 !important;
+    box-shadow: 3px 4px 10px #333333 !important;
+}
+
+
+div#banner img, div#title img {
+	margin-top:30px;
+	width:100%;
+}
+
+div#title .mini-heading {
+	margin-top:0px;
+	width:100%;
+}
+
+
+btn#social_share {
+	position: fixed;
+	top:200px;
+}
+button#go.style1 {
+    /*background: linear-gradient(to bottom, #FB00F4 0%, #D9009B 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #FB00F4;*/
+    box-shadow: 0 2px 3px #333333;
+    color: #FFFFFF;
+    font-weight: 300;
+    background: none repeat scroll 0 0 #D9009B;
+    border-color: #FB00F4;
+    color: #FFFFFF;
+    text-shadow: 1px -1px 1px #333333;
+}
+
+/*a#suggestion.style2, button#suggestion.style2 {
+    background: none repeat scroll 0 0 #CBFB3F !important;
+    border-color: #65A5D1 !important;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px #333333 !important;
+    color: #333 !important;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 5px !important;
+    padding: 28px 15px;
+    text-shadow: 1px 1px 0 #FFF !important
+}
+
+a#social_share.ui-btn.style3 {
+    background: none repeat scroll 0 0 #3E94D1 !important;
+    border-color: #65A5D1 !important;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px #333333 !important;
+    color: #FFF !important;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 5px !important;
+    padding: 28px 15px;
+    text-shadow: 1px 1px 0 #03406A !important;
+}
+a#social-comments.style4 {
+    background: none repeat scroll 0 0 #65A5D1!important;
+    border-color: #FFF !important;
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px #333333 !important;
+    color: #FFF !important;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0 auto !important;
+    padding: 28px 15px;
+    text-shadow: 1px 1px 0 #03406A !important;
+}*/
+
+/************ Preloadme **********************/
+
+body {
+		overflow: hidden;
+	}
+
+	/* Preloader */
+	#preloader {
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		/*background-color:#fff;  change if the mask should have another color then white */
+		/*background-color:rgba(255,255,255,0.9) !important;*/
+		background-color:none;
+		/*background:none repeat scroll 0 center rgba(0, 0, 0, 0);*/
+		z-index:99; /* makes sure it stays on top */
+	}
+
+	#status {
+		width:200px;
+		height:200px;
+		opacity:0.3 !important;
+		position:absolute;
+		left:50%; /* centers the loading animation horizontally one the screen */
+		top:50%; /* centers the loading animation vertically one the screen */
+		background-image:url(../img/status.gif); /* path to your loading animation */
+		background-color:rgba(255,255,255,0.9) !important;
+		border-radius: 10px;
+		box-shadow:1px 2px 4px #333;
+		background-repeat:no-repeat !important;
+		background-position:center;
+		margin:-100px 0 0 -100px; /* is width and height divided by two */
+	}
+
+
+/********************* LOGIN *********************/
+#login_pass_wrapper, #login_name_wrapper {
+    margin-bottom: 0 !important;
+    margin-top: -5px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+/**************** Pop up *************************/
+div#controls a {
+	list-style:none;
+	float:left;
+	background:url("../img/buttons.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+/*	box-shadow:1px 1px 2px  #333;*/
+	border-radius:1px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-align:center;
+}
+div#controls a.btn-view {
+	border-right: 1px solid #B4B4B4;
+}
+
+div#controls a:hover {
+	background:#fff;
+}
+
+div#controls {
+	margin-top:0px;
+	left: 0;
+	border:1px;
+    position: fixed;
+	bottom:0px;
+    width: 100%;
+	background:url("../img/buttons.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	box-shadow:1px 1px 2px  #333;
+}
+
+
+/*********** Founcdation Icons ************/
+<style id="tooltip-btn">
+	.ui-btn.my-tooltip-btn,
+	.ui-btn.my-tooltip-btn:hover,
+	.ui-btn.my-tooltip-btn:active {
+		background: none;
+		border: 0;
+	}
+	</style>
+    
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: #fff;
+        color: #444;
+        font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      a, 
+      a:visited {
+        color: #888;
+        text-decoration: underline;
+      }
+      a:hover, 
+      a:focus { color: #000; }
+
+      h1 {
+        border-bottom: 2px solid #ddd;
+        color: #888;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        padding: 20px 0;
+      }
+
+      .container {
+        margin: 0 auto;
+        min-width: 880px;
+        padding: 0 40px;
+        width: 80%;
+      }
+
+      .glyph {
+        border-bottom: 1px dotted #ccc;
+        padding: 10px 0 20px;
+        margin-bottom: 20px;
+      }
+
+      .preview-glyphs { vertical-align: bottom; } 
+
+      .preview-scale { 
+        color: #888;
+        font-size: 12px; 
+        margin-top: 5px;
+      }
+
+      .step {
+        display: inline-block;
+        line-height: 1;
+        width: 10%;
+      }
+
+      
+      .size-12 { font-size: 12px; }
+      
+      .size-14 { font-size: 14px; }
+      
+      .size-16 { font-size: 16px; }
+      
+      .size-18 { font-size: 18px; }
+      
+      .size-21 { font-size: 21px; }
+      
+      .size-24 { font-size: 24px; }
+      
+      .size-36 { font-size: 36px; }
+      
+      .size-48 { font-size: 48px; }
+      
+      .size-60 { font-size: 60px; }
+      
+      .size-72 { font-size: 72px; }
+      
+
+      .usage { margin-top: 10px; }
+
+      .usage input {
+        font-family: monospace;
+        margin-right: 3px;
+        padding: 2px 5px;
+        text-align: center;
+      }
+
+      .usage .point { width: 150px; }
+
+      .usage .class { width: 250px; }
+
+      .footer {
+        color: #888;
+        font-size: 12px;
+        padding: 20px 0;
+      }
+	  
+	/*    .style1 {
+    	width:100% !important;
+	  color: rgba(255, 255, 255, 0.8) !important;
+   
+   text-shadow: 1px 1px 1px #D9009B, 0 0 1px #FFFFFF, 1px -1px 1px #000000;
+}*/
+
+	  .style2 {
+     /* color: rgba(56, 61, 80, 0.8) !important;*/
+	 /* color: rgba(255, 255, 255, 0.8) !important;*/
+	    color: rgba(144, 67, 115, 0.9) !important
+	  
+   /* text-shadow: 0 1px 1px #FFFFFF, 0 0 0 #000000, 0 0 1px #FFFFFF;*/
+   text-shadow: 1px 1px 1px #D9009B, 0 0 1px #FFFFFF, 1px -1px 1px #000000;
+}
+	  .style5 {
+    color: rgba(245, 159, 26, 0.8);
+    font-size: 70px;
+    text-shadow: 1px 4px 6px #FFFFFF, 0 0 0 #000000, 1px 4px 6px #FFFFFF;
+}
+
+
+
+div#listArticles {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 1px 1px 2px #333333 !important;
+    height: 250px;
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 280px;
+    overflow: scroll;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+
+div#title {
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+
+
+/* HTML5 BUTTONS */
+
+/*
+a#shout-comments.style3.btn-mini {
+    background: none repeat scroll 0 0 #3E9CBF;
+    border-radius: 5px !important;
+    border-top: 1px solid #FFFFFF !important;
+    bottom: 45px;
+    box-shadow: 1px 1px 2px #333333 !important;
+    cursor: pointer;
+    font-size: 1em !important;
+    margin-left: -10px;
+    padding: 8px !important;
+    position: fixed;
+    width: 301px !important;
+    z-index: 100;
+}*/
+
+.ui-focus {
+	box-shadow:1px 1px 4px #333 !important;
+}
+.ui-field-contain  {
+		
+		   padding: 5px !important;
+   
+	}
+
+    /***FIRST STYLE THE BUTTON***/
+	.btn-gui {
+		
+		   padding: 5px;
+   
+	}
+	
+ input#bigbutton, a#suggestion.style3, a#social_share.ui-btn.style3, button#social_share.style3, a#shout-comments.ui-btn.style3, button#login.style1 {
+    background: none repeat scroll 0 0 #3E9CBF;
+    border: 1px solid #3E9CBF;
+<<<<<<< HEAD
+    border-radius: 5px;
+=======
+    border-radius: 10px;
+>>>>>>> 55354e1095bbf8ca2520e3be25dea11317de5c67
+  box-shadow: 0 1px 0 #3E9CBF inset, 0 1px 0 0 #FFFFFF, 0 3px 4px #555555;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Oswald,sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+    /***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+    input#bigbutton:hover, input#bigbutton:focus,
+	a#suggestion.style2:hover, a#suggestion.style2:focus,
+	a#social_share.ui-btn.style3:hover, a#social_share.ui-btn.style3:focus,
+	a#shout-comments.ui-btn.style3:hover, a#shout-comments.ui-btn.style3focus,
+	button#social_share.style3:hover, button#social_share.style3:focus {
+    color:#dfe7ea;
+    /*reduce the size of the shadow to give a pushed effect*/
+    -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+    -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+    box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+    }
+
+/****************** COMMENTS ***************************/
+div.comment-created {
+    color: #888888;
+    float: right;
+    font-size: 0.7em;
+}
+
+
+#comments {
+    font-family: "Helvetica",sans-serif !important;
+    font-size: 0.9em !important;
+    margin-top: 15px;
+    text-align: left !important;
+}
+
+#popupWin4 {
+	width:90% !important;
+	height:90% !important;
